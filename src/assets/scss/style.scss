@@ -1,0 +1,22 @@
+// *{
+//   outline: 1px solid dodgerblue;
+// }
+
+:root{
+  --primary : #fff;
+  --secondary: #000;
+}
+
+$primaryColor: #fff;
+
+#app {
+  .greetings {
+    h1.green {
+      color: $primaryColor;
+    }
+  }
+}
+
+h1{
+  color: green;
+}
